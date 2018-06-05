@@ -65,4 +65,20 @@ voice_test_a.to_csv("../temp/voice_test_a.csv", index=False)
 sms_test_a.to_csv("../temp/sms_test_a.csv", index=False)
 wa_test_a.to_csv("../temp/wa_test_a.csv", index=False)
 
+# 导出测试 B(uid=u7000~u9999)
+uid_test_b = uid_train.loc[:2999, :].copy(deep=True)  # 3000
+uid = 7000
+for i in range(3000):
+    uid_test_b.at[i, 'uid'] = 'u'+str(uid)
+    uid_test_b.at[i, 'label'] = -1
+    uid = uid+1
+uid_test_b.to_csv("../temp/uid_test_b.csv", index=False)
+
+voice_test_b = pd.read_table('../data/testB/voice_test_b.txt', header=None, names=voice_train_names, low_memory=False)
+sms_test_b = pd.read_table('../data/testB/sms_test_b.txt', header=None, names=sms_train_names, low_memory=False)
+wa_test_b = pd.read_table('../data/testB/wa_test_b.txt', header=None, names=wa_train_names, low_memory=False)
+
+voice_test_b.to_csv("../temp/voice_test_b.csv", index=False)
+sms_test_b.to_csv("../temp/sms_test_b.csv", index=False)
+wa_test_b.to_csv("../temp/wa_test_b.csv", index=False)
 
