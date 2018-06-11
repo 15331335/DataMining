@@ -1,7 +1,9 @@
 # DataMining
 
-JDATA 基于移动网络通讯行为的风险用户识别
+[JDATA 基于移动网络通讯行为的风险用户识别](https://jdata.jd.com/html/detail.html?id=3)
 
+- 初赛排名：78/624，最优分数：0.780596
+- 复赛排名：19/624，最优分数：0.859888
 
 
 ## Feature List
