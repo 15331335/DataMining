@@ -5,6 +5,18 @@
 - 初赛排名：78/624，最优分数：0.780596
 - 复赛排名：19/624，最优分数：0.859888
 
+## Data Download
+
+[数据下载](https://pan.baidu.com/s/193VfNKccnz8pQ_NfCU_OKw)
+
+- jdata_train
+- JDATA用户风险识别_Test-A
+- JDATA用户风险识别_Test-B
+
+## Refer Baseline
+
+- [2018-JData-Unicom-RiskUser @ShawnyXiao](https://github.com/ShawnyXiao/2018-JData-Unicom-RiskUser)
+- [mobileRiskUser @Hanszhuang](https://github.com/Hanszhuang/mobileRiskUser)
 
 ## Feature List
 
